@@ -1,0 +1,61 @@
+/* common style */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'lato', 'sans-serif';
+    margin: 0px;
+    padding: 0px;
+}
+.primary-text{
+    color: #272727;
+    font-weight: 800;
+}
+.primary-p{
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 30px;
+    font-weight: 400;
+}
+.primary-btn{
+    border-radius: 8px;
+    background: #E55473;
+    gap: 10px;
+}
+/* common style ends here */
+
+/* header style starts here */
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.10);
+}
+.header-h1{
+    font-size: 70px;
+    width: 640px;
+}
+.header-span{
+    color: rgb(255, 1, 1);
+}
+.header-p{
+    font-size: 25px;
+}
+.header-img{
+    width: 600px;
+    height: 500px;
+    
+}
+.first-btn{
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.header-texts{
+    margin-left:40px;
+    padding: 27px;
+    
+    
+}
+
+/* header style ends here */

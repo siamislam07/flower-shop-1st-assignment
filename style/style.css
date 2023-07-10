@@ -1,72 +1,83 @@
 /* common style */
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'lato', 'sans-serif';
     margin: 0px;
     padding: 0px;
 }
-.primary-text{
+
+.primary-text {
     color: #272727;
     font-weight: 800;
 }
-.primary-p{
+
+.primary-p {
     color: rgba(39, 39, 39, 0.60);
     line-height: 30px;
     font-weight: 400;
 }
-.primary-btn{
+
+.primary-btn {
     border-radius: 8px;
     background: #E55473;
     color: #fff;
     border: none;
     padding: 15px 40px;
     font-size: 17px;
-    font-weight: 700; 
+    font-weight: 700;
 }
+
 /* common style ends here */
 
 /* header style starts here */
-.header-container{
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background: rgba(229, 84, 115, 0.10);
 }
-.header-h1{
+
+.header-h1 {
     font-size: 70px;
     width: 640px;
     line-height: 70px;
 }
-.header-span{
+
+.header-span {
     color: rgb(255, 1, 1);
 }
-.header-p{
+
+.header-p {
     font-size: 25px;
 }
-.header-img{
+
+.header-img {
     width: 600px;
     height: 500px;
     padding-top: 81px;
-    
+
 }
-.first-btn{
+
+.first-btn {
     color: #fff;
     border: none;
     padding: 15px 40px;
     font-size: 17px;
     font-weight: 700;
 }
-.header-texts{
-    margin-left:40px;
+
+.header-texts {
+    margin-left: 40px;
     padding: 27px;
 }
+
 /* header style ends here */
 
 /* main style starts here */
 
 /* sale style */
-.sale-section{
+.sale-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,33 +88,68 @@ body{
     border-radius: 8px;
 
 }
-.sale-text{
+
+.sale-text {
     text-align: center;
 }
-.sale-h2{
+
+.sale-h2 {
     color: #272727;
     font-size: 30px;
     font-weight: 800;
 }
-.sale-p{
+
+.sale-p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 500;
-    
+
 }
-.sale-btn{
+
+.sale-btn {
     padding: 12px 33px;
 }
-.sale-img{
+
+.sale-img {
     width: 15%;
 }
 
-.sale-span{
+.sale-span {
     color: rgba(229, 84, 115, 1)
 }
 
 /* sale style end */
+.insta-section {
+    text-align: center;
+    margin-top: 80px;
+}
 
+.insta-h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.insta-p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20 px;
+    font-weight: 500;
+
+}
+
+/* flower images side by side */
+
+.flower-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.flower {
+    width: 205px;
+}
 
 
 /* main style ends here */

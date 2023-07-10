@@ -148,7 +148,42 @@ body {
 }
 
 .flower {
-    width: 205px;
+    width: 224px;
+}
+/* coupon section */
+.coupon-section{
+    background-image: url(../Rectangle\ 9.png);
+    margin: 45px 210px;
+    background-size: cover;
+    align-items: center;
+    padding: 77px;
+    
+}
+.cupon-content{
+    /* display: flex; */
+    text-align: center; 
+    
+}
+.cupon-h3{
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0px;
+}
+.cupon-p{
+    color:rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+}
+.cupon-input{
+    border: none;
+    border-radius: 5px;
+    width: 355px;
+    height: 30px;
+}
+.cupon-btn{
+    padding: 8px 10px;
+    font-size: 15px;
+    border-radius: 3px;
 }
 
 

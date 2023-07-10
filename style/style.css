@@ -18,7 +18,11 @@ body{
 .primary-btn{
     border-radius: 8px;
     background: #E55473;
-    gap: 10px;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 17px;
+    font-weight: 700; 
 }
 /* common style ends here */
 
@@ -56,8 +60,50 @@ body{
 .header-texts{
     margin-left:40px;
     padding: 27px;
-    
+}
+/* header style ends here */
+
+/* main style starts here */
+
+/* sale style */
+.sale-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    margin-top: 15%;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    border-radius: 8px;
+
+}
+.sale-text{
+    text-align: center;
+}
+.sale-h2{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+.sale-p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 500;
     
 }
+.sale-btn{
+    padding: 12px 33px;
+}
+.sale-img{
+    width: 15%;
+}
 
-/* header style ends here */
+.sale-span{
+    color: rgba(229, 84, 115, 1)
+}
+
+/* sale style end */
+
+
+
+/* main style ends here */

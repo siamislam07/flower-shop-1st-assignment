@@ -1,6 +1,6 @@
 /* common style */
-*{
-    font-family: 'lato',sans-serif;
+* {
+    font-family: 'lato', sans-serif;
 }
 
 body {
@@ -76,6 +76,48 @@ body {
 /* header style ends here */
 
 /* main style starts here */
+/* feature section  */
+
+.feature-text{
+    text-align: center ;
+    margin-top: 150px;
+}
+
+.flower-div {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 188px;
+    padding: 30px;
+    padding-bottom: 2px;
+    display: flex;
+}
+.flower-div > img{
+    width: 100%;
+    align-self: center;
+}
+.feature-flower-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.flower1{
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower3{
+    background: rgba(71, 125, 17, 0.15);
+}
+.down-text{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    gap: 120px;
+    margin-top: 20px;
+}
+.down-text u{
+    color:#272727;
+    font-size: 17px;
+    font-weight: 400;
+}
 
 /* sale style */
 .sale-section {
@@ -125,14 +167,14 @@ body {
     margin-top: 80px;
 }
 
-.insta-h3 {
+.insta-h3, .feature-h2 {
     color: #272727;
     font-size: 39px;
     font-weight: 800;
     margin: 0px;
 }
 
-.insta-p {
+.insta-p, .feature-p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 20 px;
     font-weight: 500;
@@ -151,37 +193,43 @@ body {
 .flower {
     width: 224px;
 }
+
 /* coupon section */
-.coupon-section{
+.coupon-section {
     background-image: url(../Rectangle\ 9.png);
     margin: 45px 210px;
     background-size: cover;
     align-items: center;
     padding: 77px;
-    
+
 }
-.cupon-content{
+
+.cupon-content {
     /* display: flex; */
-    text-align: center; 
-    
+    text-align: center;
+
 }
-.cupon-h3{
+
+.cupon-h3 {
     color: #272727;
     font-size: 25px;
     font-weight: 800;
     margin: 0px;
 }
-.cupon-p{
-    color:rgba(39, 39, 39, 0.60);
+
+.cupon-p {
+    color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
 }
-.cupon-input{
+
+.cupon-input {
     border: none;
     border-radius: 5px;
     width: 355px;
     height: 30px;
 }
-.cupon-btn{
+
+.cupon-btn {
     padding: 8px 10px;
     font-size: 15px;
     border-radius: 3px;
@@ -190,29 +238,34 @@ body {
 
 /* main style ends here */
 /* footer styles here */
-.footer{
+.footer {
     background: #111010;
 }
-.footer-container{
+
+.footer-container {
     text-align: center;
     margin-top: 75px;
     padding: 30px 0px;
     font-family: 'lato', 'sans-serif';
 }
-.footer-span{
-    color:#E55473 ;
+
+.footer-span {
+    color: #E55473;
 }
-.footer-h3{
+
+.footer-h3 {
     color: #fff;
     font-size: 37px;
-    font-weight: 700;   
+    font-weight: 700;
 }
-.footer-p{
+
+.footer-p {
     color: rgba(255, 255, 255, 0.90);
     font-size: 18px;
     font-weight: 400;
 }
-.footer-p2{
+
+.footer-p2 {
     color: rgba(255, 255, 255, 0.40);
     font-size: 15px;
     font-weight: 300;
